@@ -1,18 +1,18 @@
 # Project Status Report
 
-### **Overview**
+# **Overview**
 This project aims to provide stakeholders with a concise report summarizing key findings and insights. The report also includes actionable recommendations to guide decision-making.
 
-### **Contents**
+# **Contents**
 - **Project_Status_Report.docx**: The detailed project status report containing:
   - Summary of insights.
   - Key findings from the project.
   - Recommendations tailored for stakeholders.
 
-### **Key Features**
+# **Key Features**
 - Highlights crucial metrics and outcomes.
 - Focused recommendations for stakeholders.
 
-### **Usage**
+# **Usage**
 1. Download the **Project_Status_Report.docx** file.
 2. Open it with your preferred word processor to view the full details.
