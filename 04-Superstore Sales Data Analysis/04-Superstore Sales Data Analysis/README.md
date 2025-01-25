@@ -5,21 +5,20 @@
 This project focuses on analyzing the Superstore dataset to uncover actionable insights and drive business strategies. The analysis explores key performance metrics like sales trends, customer lifetime value, product profitability, and regional performance.  
 
 ### **Contents**  
-- **Superstore_Analysis.sql**: SQL scripts that process and analyze the dataset, covering:  
+- **Superstore_Analysis.twbx**: Tableau that process and analyze the dataset, covering:  
   - Sales trends by product and region.  
   - Profitability by category and sub-category.  
   - Customer Lifetime Value (CLTV) calculations.  
   - RFM segmentation analysis.  
 
-- **Superstore_Insights.pdf**: A concise report summarizing:  
+- **Summary.png**: A concise report summarizing:  
   - Key findings from the analysis.  
   - Strategic recommendations to enhance sales and customer retention.  
 
 ### **Key Results**  
-1. Identified top-performing products and regions, and recommended strategies to boost underperformers.  
-2. Analyzed customer behaviors using RFM segmentation, categorizing them into actionable groups (e.g., “Champions,” “At Risk”).  
-3. Calculated Customer Lifetime Value (CLTV) to target high-value customers effectively.  
-4. Uncovered sales trends, highlighting peak periods and slower months to guide seasonal marketing campaigns.  
+1. Identified top-performing products and regions, and recommended strategies to boost underperformers.   
+2. Calculated Customer Lifetime Value (CLTV) to target high-value customers effectively.  
+3. Uncovered sales trends, highlighting peak periods and slower months to guide seasonal marketing campaigns.  
 
 
 ### **Tools Used**  
