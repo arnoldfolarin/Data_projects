@@ -1,11 +1,16 @@
-# Data & Full-Stack Projects
-Projects I worked on 
+# React + Vite
 
-| Project | Title | Description | Technologies |
-|---------|-------|-------------|--------------|
-| 1 | Project Status Report | Prepared concise reports summarizing insights, key findings, and recommendations for stakeholders | Excel, PowerPoint |
-| 2 | NYC Airbnb Analysis | Analyzed Airbnb data to provide investment guidance on property types | Python, Pandas, Matplotlib |
-| 3 | Retention Rates Analysis | Analyzed user activity logs to generate actionable e-commerce metrics | SQL, Tableau |
-| 4 | Superstore Sales Analysis | Explored sales trends, customer behavior, and product performance | Python, RFM Analysis |
-| 5 | QuickCare Mental Wellness Tracker | Full-stack mental health tracking application with user analytics | Node.js, Express, PostgreSQL, JavaScript |
-| 6 | Office Equipment Tracker | Full-stack equipment management system with inventory tracking and assignment features | LEMP (Linux, Nginx, MySQL, PHP), Docker, HTML/CSS/JavaScript |
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

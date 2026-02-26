@@ -1,0 +1,67 @@
+.app {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1.5rem;
+}
+
+.bg-blobs {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.3;
+}
+
+.blob-1 {
+  width: 600px;
+  height: 600px;
+  background: var(--accent-pink);
+  top: -200px;
+  right: -150px;
+  animation: float1 20s ease-in-out infinite;
+}
+
+.blob-2 {
+  width: 500px;
+  height: 500px;
+  background: var(--accent-purple);
+  bottom: -100px;
+  left: -200px;
+  animation: float2 25s ease-in-out infinite;
+}
+
+.blob-3 {
+  width: 400px;
+  height: 400px;
+  background: var(--accent-orange);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: float3 18s ease-in-out infinite;
+}
+
+@keyframes float1 {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(-80px, 60px); }
+}
+
+@keyframes float2 {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(60px, -80px); }
+}
+
+@keyframes float3 {
+  0%, 100% { transform: translate(-50%, -50%) scale(1); }
+  50% { transform: translate(-50%, -50%) scale(1.2); }
+}
