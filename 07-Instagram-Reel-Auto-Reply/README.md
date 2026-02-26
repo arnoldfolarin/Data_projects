@@ -6,7 +6,7 @@ A Chrome extension that automatically replies to reels (and optionally posts) in
 
 ## What this project does
 
-- **Detects** reels (and shared posts) in an open Instagram DM thread via DOM and accessibility markers (`aria-label`).
+- **Detects** reels and shared posts in an open Instagram DM thread via DOM and accessibility markers (`aria-label`).
 - **Clicks** the official Reply button and sends a random predefined reply so each reply is a proper threaded reply.
 - **Scrolls** using simulated mouse wheel events (Chrome DevTools Protocol) so Instagram’s virtualized chat loads correctly.
 - **Avoids duplicates** by tracking replied items (by URL path and DOM node) and by checking for existing replies in the thread.
@@ -75,3 +75,4 @@ A Chrome extension that automatically replies to reels (and optionally posts) in
 ## Disclaimer
 
 Automating interaction with Instagram may violate their Terms of Service. Use at your own risk. Prefer conservative speed settings and avoid long, unattended runs.
+
